@@ -4,9 +4,9 @@ Collaborators are the set of developers/designers/themers who have already contr
 
 ## Roles
 
-> Collaborators can directly manage and add new devices to PBRP. (For official maintainership, file PR with test results)
-> Collaborators can develop new feature/bug-fix for PBRP under developer's review.
-> Collaborators can sometimes assist developers in some feature/theme/bug-fix.
+- Collaborators can directly manage and add new devices to PBRP. (For official maintainership, file PR with test results)
+- Collaborators can develop new feature/bug-fix for PBRP under developer's review.
+- Collaborators can sometimes assist developers in some feature/theme/bug-fix.
 
 ## Pushing Conventions
 
@@ -14,4 +14,4 @@ All the collaborators are required to first work on a seperate branch and then c
 
 ## Current Collaborators
 
-> (MD Raza)[https://github.com/raza231198]
+- (MD Raza)[https://github.com/raza231198]
