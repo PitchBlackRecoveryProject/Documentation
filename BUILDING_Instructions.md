@@ -76,32 +76,6 @@ workflows:
           ## You also need to signup on dockerhub and use $DOCKERHUB_USERNAME and $DOCKERHUB_PASSWORD in the environment variables
 ```
 
-#### If you wanna build with Android 10 source code
-
-Replace these parts of lines with the new ones to build with Android Q sources.
-
-BEWARE: This process is too slow. It will consume around 2 hours of your precious time for one recovery build.
-> Don't blame me. The Remote Docker has only 2x1 CPU Threads, but gives 8GB RAM & 100GB SSD Space to use.
-
-```diff
----    working_directory: /home/builder/pitchblack
-+++    working_directory: /home/builder
----
----    steps:
----      - run:
----          name: AIO Build
----          command: |
----            wget -q https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_utils/pb/build.sh
----            source build.sh
-+++    steps:
-+++      - setup_remote_docker:
-+++          version: 19.03.13
-+++      - run:
-+++          name: "ALL IN REMOTE"
-+++          command: |
-+++            curl -sL https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_utils/pb/remote_build.sh -o build.sh
-+++            source build.sh
-```
 
 Don't forget to remove all our comments from inside the config.
 
