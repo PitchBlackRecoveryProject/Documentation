@@ -1,8 +1,0 @@
-{
-    "name": "PBRP Organization Workflow",
-    "description": "PBRP Organization CI workflow template.",
-    "iconName": "pbrp-icon",
-    "filePatterns": [
-        "*.*"
-    ]
-}
