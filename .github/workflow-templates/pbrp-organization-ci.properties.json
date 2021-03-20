@@ -4,8 +4,5 @@
     "iconName": "pbrp-icon",
     "categories": [
         "Makefile"
-    ],
-    "filePatterns": [
-        "*\\.mk"
     ]
 }
