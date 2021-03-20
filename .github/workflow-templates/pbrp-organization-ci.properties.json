@@ -3,6 +3,9 @@
     "description": "PBRP Organization CI workflow template.",
     "iconName": "pbrp-icon",
     "categories": [
-        "Makefile"
+        "Makefile",
+        "shell",
+        "C++",
+        "C",
     ]
 }
