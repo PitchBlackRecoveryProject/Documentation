@@ -1,5 +1,12 @@
 {
-    "name": "PBRP Organization CI",
+    "name": "PBRP Organization Workflow",
     "description": "PBRP Organization CI workflow template.",
     "iconName": "pbrp-icon"
+}
+    "categories": [
+        "Makefile"
+    ],
+    "filePatterns": [
+        "*\\.mk"
+    ]
 }
