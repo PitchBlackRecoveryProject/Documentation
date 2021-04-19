@@ -1,4 +1,4 @@
-# Building Instructions for Maintainers
+# Building Instructions for Maintainers (Depreciated)
 
 We use [CircleCI](https://circleci.com/) for on-demand testing and releasing recoveries. It uses our Customized Docker Image to handle the Build Environment.
 Any Maintainer who have access to the _GREEN Repositories_ inside this organization as-well-as Developers can use our Free Plan to build the Official Releases. You might just need to follow proper commit convention to start things up.
