@@ -37,5 +37,5 @@ PB_FORCE_DD_FLASH := TRUE
 
 For Specific Device Source path in PBRP, use this flag.
 ```makefile
-PB_TORCH_PATH := /sys/class/leds/flashlight
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
 ```
