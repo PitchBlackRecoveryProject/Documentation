@@ -5,7 +5,7 @@
 
 The organization consists of specific [Core developers](Core_developers.md). Make sure to know their roles.
 
-Anybody who can maintain new device builds can directly contact Core developers in [Telegram Group](https://t.me/pbrpcomm).
+Anybody who can maintain new device builds can directly contact Core developers in [Telegram Group](https://t.me/pbrpcom).
 
 Developers should see [Bringup Instructions](BRINGUP.md) if they want to be the first to make a PitchBlack Recovery for their device.
 
