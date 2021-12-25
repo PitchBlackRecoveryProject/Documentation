@@ -7,6 +7,8 @@ The organization consists of specific [Core developers](Core_developers.md). Mak
 
 Anybody who can maintain new device builds can directly contact Core developers in [Telegram Group](https://t.me/pbrpcom).
 
+Need help and support in building PBRP ? Join [Beta testing / Building support group](https://t.me/pbrp_testers).
+
 Developers should see [Bringup Instructions](BRINGUP.md) if they want to be the first to make a PitchBlack Recovery for their device.
 
 Maintainers as-well-as Developers should see [BUILDING Instructions](BUILDING_Instructions.md) to know more about the build-and-release system. Core developers can set a new CI Autobuild system onto your device tree if already not available for helping you to release continuous updates.
