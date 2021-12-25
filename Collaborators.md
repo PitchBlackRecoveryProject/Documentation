@@ -14,5 +14,5 @@ All the collaborators are required to first work on a seperate branch and then c
 
 ## Current Collaborators
 
-- [MD Raza](https://github.com/raza231198)
+- [MD Raza](https://github.com/razadroid)
 - [Imranpopz](https://github.com/imranpopz)
