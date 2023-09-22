@@ -22,7 +22,7 @@ PB_DISABLE_DEFAULT_DM_VERITY := true
 ### Disable treble compatibility check by default
 
 ```makefile
-PB_DISABLE_DEFAULT_TREBLE_COMP
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
 ```
 
 ### Force Use of `dd` for Flashing Recovery
