@@ -12,7 +12,7 @@ MAINTAINER := "Short Name and/or Telegram Id"
 # MAINTAINER := "Rokib Hasan @fr3akyphantom" # Example, keep it short
 ```
 
-### Disable dm-verity by default
+### Untick `Disable dm-verity` by default
 
 dm-verity is enabled by default in PBRP, this build flag disables that by default.
 ```makefile
@@ -20,9 +20,14 @@ PB_DISABLE_DEFAULT_DM_VERITY := true
 ```
 
 ### Disable treble compatibility check by default
-
 ```makefile
 PB_DISABLE_DEFAULT_TREBLE_COMP := true
+```
+
+### Untick `Disable AVB2 patch` by default
+
+```makefile
+PB_DISABLE_DEFAULT_PATCH_AVB2 := true
 ```
 
 ### Force Use of `dd` for Flashing Recovery
